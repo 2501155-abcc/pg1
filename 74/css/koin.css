@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background: #4caf50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+ul#list {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+ul#list li {
+  list-style: none;
+  background: #fff;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul#list li button {
+  background: #e53935;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+ul#list li button:hover {
+  background: #d32f2f;
+}

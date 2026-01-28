@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>ツムツムbox完売記録</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script defer src="js/script.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">プレボ完売</a></li>
+                <li><a href="koin.html">コイン稼ぎ</a></li>
+            </ul>
+        </nav>
+        <h2>キャラ一覧</h2>
+        <div id="totalCoin">
+            合計必要コイン：0
+        </div>
+        <ul id="charList">
+            <li data-id="1" data-name="サリー" data-max="36"></li> <li data-id="2" data-name="マイク" data-max="34"></li> <li data-id="3" data-name="バズライトイヤー" data-max="32"></li>
+            <li data-id="4" data-name="ウッディ" data-max="36"></li> <li data-id="5" data-name="レディ" data-max="28"></li> <li data-id="6" data-name="マリー" data-max="30"></li>
+            <li data-id="7" data-name="スクランプ" data-max="28"></li> <li data-id="8" data-name="スティッチ" data-max="34"></li> <li data-id="9" data-name="ティンカーベル" data-max="32"></li>
+            <li data-id="10" data-name="ダンボ" data-max="34"></li> <li data-id="11" data-name="テェシャ猫" data-max="30"></li> <li data-id="12" data-name="白うさぎ" data-max="32"></li>
+            <li data-id="13" data-name="アリス" data-max="36"></li> <li data-id="14" data-name="ヤングオイスター" data-max="36"></li> <li data-id="15" data-name="オラフ" data-max="34"></li>
+            <li data-id="16" data-name="ミス・バニー" data-max="34"></li> <li data-id="17" data-name="とんすけ" data-max="34"></li> <li data-id="18" data-name="バンビ" data-max="32"></li>
+            <li data-id="19" data-name="マレフィセント" data-max="36"></li> <li data-id="20" data-name="アナ" data-max="34"></li> <li data-id="21" data-name="エルサ" data-max="34"></li>
+            <li data-id="22" data-name="セバスチャン" data-max="32"></li> <li data-id="23" data-name="フランダー" data-max="32"></li> <li data-id="24" data-name="アリエル" data-max="34"></li>
+            <li data-id="25" data-name="パスカル" data-max="32"></li> <li data-id="26" data-name="ラプンツェル" data-max="32"></li> <li data-id="27" data-name="スヴェン" data-max="32"></li>
+            <li data-id="28" data-name="ベイマックス" data-max="34"></li> <li data-id="29" data-name="ロッツォ"></li><li data-id="30" data-name="ジェシー" data-max="34"></li>
+            <li data-id="31" data-name="野獣"></li> <li data-id="32" data-name="ベル"></li> <li data-id="33" data-name="バースデーアナ"></li>
+            <li data-id="34" data-name="サプライズエルサ"></li> <li data-id="35" data-name="エンジェル"></li> <li data-id="36" data-name="ランドール"></li>
+            <li data-id="37" data-name="レックス"></li> <li data-id="38" data-name="メーター"></li> <li data-id="39" data-name="マックィーン"></li>
+            <li data-id="40" data-name="トリトン王"></li> <li data-id="41" data-name="ジャスミン"></li> <li data-id="42" data-name="アラジン"></li>
+            <li data-id="43" data-name="ジーニー"></li> <li data-id="44" data-name="ピノキオ"></li> <li data-id="45" data-name="オーロラ姫"></li>
+            <li data-id="46" data-name="白雪姫"></li> <li data-id="47" data-name="ナラ"></li> <li data-id="48" data-name="シンバ"></li>
+            <li data-id="49" data-name="スカー"></li> <li data-id="50" data-name="マレフィセント"></li> <li data-id="51" data-name="女王"></li>
+            <li data-id="52" data-name="アースラ"></li> <li data-id="53" data-name="フィニック"></li> <li data-id="54" data-name="ニック"></li>
+            <li data-id="55" data-name="ジュディ"></li> <li data-id="56" data-name="フェアリー・ゴッドマザー"></li> <li data-id="57" data-name="シンデレラ"></li>
+            <li data-id="58" data-name="マッドハッター"></li> <li data-id="59" data-name="ハートの女王"></li> <li data-id="60" data-name="ドリー"></li>
+            <li data-id="61" data-name="ニモ"></li> <li data-id="62" data-name="クラッシュ"></li> <li data-id="63" data-name="ジャファー"></li>
+            <li data-id="64" data-name="クルエラ"></li> <li data-id="65" data-name="フック船長"></li> <li data-id="66" data-name="マウイ"></li>
+            <li data-id="67" data-name="モアナ"></li> <li data-id="68" data-name="フィリップ王子"></li> <li data-id="69" data-name="ヘラクレス"></li>
+            <li data-id="70" data-name="ハデス"></li> <li data-id="71" data-name="ルミエール"></li> <li data-id="72" data-name="ガストン"></li>
+            <li data-id="73" data-name="マキシマス"></li> <li data-id="74" data-name="フリン・ライダー"></li> <li data-id="75" data-name="ポカホンタス"></li>
+            <li data-id="76" data-name="ムーラン"></li> <li data-id="77" data-name="クルーズ・ラミレス"></li> <li data-id="78" data-name="ティモシー"></li>
+            <li data-id="79" data-name="パッチ"></li> <li data-id="80" data-name="ピーターパン"></li> <li data-id="81" data-name="ブルーフェアリー"></li>
+            <li data-id="82" data-name="トランプ"></li> <li data-id="83" data-name="王子"></li> <li data-id="84" data-name="ブー"></li>
+            <li data-id="85" data-name="フラワー"></li> <li data-id="86" data-name="ロビンフッド"></li> <li data-id="87" data-name="ダッチェス"></li>
+            <li data-id="88" data-name="ゴーデル"></li> <li data-id="89" data-name="ハム"></li> <li data-id="90" data-name="ラフィキ"></li>
+            <li data-id="91" data-name="ティモン"></li> <li data-id="92" data-name="クリストフ"></li> <li data-id="93" data-name="ラジャー"></li>
+            <li data-id="94" data-name="レミー"></li> <li data-id="95" data-name="フリック"></li> <li data-id="96" data-name="ガントゥ"></li>
+            <li data-id="97" data-name="マーリン"></li> <li data-id="98" data-name="ワート"></li> <li data-id="99" data-name="ダンテ"></li>
+            <li data-id="100" data-name="ジョン"></li> <li data-id="101" data-name="ウェンディ"></li> <li data-id="102" data-name="フロロー"></li>
+            <li data-id="103" data-name="エリオット"></li> <li data-id="104" data-name="２２番"></li> <li data-id="105" data-name="ジョー"></li>
+            <li data-id="106" data-name="オリバー"></li> <li data-id="107" data-name="ルシファー"></li> <li data-id="108" data-name="イズマ"></li>
+            <li data-id="109" data-name="トレメイン夫人"></li> <li data-id="110" data-name="シスー"></li> <li data-id="111" data-name="ラーヤ"></li>
+            <li data-id="112" data-name="ハンク"></li> <li data-id="113" data-name="カナシミ"></li> <li data-id="114" data-name="ヨロコビ"></li>
+            <li data-id="115" data-name="シア・カーン"></li> <li data-id="116" data-name="タマトア"></li> <li data-id="117" data-name="ロズ"></li>
+            <li data-id="118" data-name="モンストロ"></li> <li data-id="119" data-name="ソックス"></li> <li data-id="120" data-name="メイリン・リー"></li>
+            <li data-id="121" data-name="ルカ・パグーロ"></li> <li data-id="122" data-name="イサベラ"></li> <li data-id="123" data-name="ミラベル"></li>
+            <li data-id="124" data-name="ギデオン"></li> <li data-id="125" data-name="正直ジョン"></li> <li data-id="126" data-name="カジモド"></li>
+            <li data-id="127" data-name="ヴェネッサ"></li> <li data-id="128" data-name="トランプ兵"></li> <li data-id="129" data-name="ウェイド"></li>
+            <li data-id="130" data-name="エンバー"></li> <li data-id="131" data-name="アーシャ"></li> <li data-id="132" data-name="ムーシュー"></li>
+            <li data-id="133" data-name="マシュマロウ"></li> <li data-id="134" data-name="ハンス王子"></li> <li data-id="135" data-name="チーズ"></li>
+            <li data-id="136" data-name="キャンディ大王"></li> <li data-id="137" data-name="エルネスト・デラクルス"></li> <li data-id="138" data-name="ベルウェザー副市長"></li>
+            <li data-id="139" data-name="カー"></li> <li data-id="140" data-name="魔法の洞窟"></li> <li data-id="141" data-name="イアーゴ"></li>
+            <li data-id="142" data-name="スミー"></li> <li data-id="143" data-name="コトゥ"></li> <li data-id="144" data-name="シンパイ"></li>
+            <li data-id="145" data-name="イイナー"></li> <li data-id="146" data-name="ゲイリー"></li> <li data-id="147" data-name="新ツム１"></li>
+            <li data-id="148" data-name="新ツム２"></li> <li data-id="149" data-name="新ツム３"></li>
+        </ul>
+    </body>
+    <small>2501155 瀬﨑柊由</small>
+</html>
